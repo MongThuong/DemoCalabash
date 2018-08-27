@@ -1,0 +1,32 @@
+ids
+calabash-ios console
+start_test_server_in_background
+ids
+touch("marked: 'Cal_tfUserName'")
+touch("marked: 'UITextField: Cal_tfUserName'")
+touch("UITextField marked: ' Cal_tfUserName'")
+touch("UITextField marked: 'Cal_tfUserName'")
+keyboard_enter_text"12345"
+touch("UITextField marked: 'Cal_tfPassWord'")
+keyboard_enter_text"1234567"
+touch("UIButton marked:'loginbtn'")
+touch("UIButton marked:'Cal_btLogin'")
+touch("UITableViewCell index:3")
+touch("UITableViewCell index:3")
+start_test_server_in_background
+touch("UITextField marked: 'Cal_tfUserName'")
+keyboard_enter_text"nmthuong"
+touch("UITextField marked: 'Cal_tfPassWord'")
+keyboard_enter_text"1234567"
+touch("UIButton marked:'Cal_btLogin'")
+touch("UITableViewCell index:3")
+start_test_server_in_background
+touch("UITextField marked: ' Cal_tfUserName'")
+touch("UITextField marked: 'Cal_tfUserName'")
+keyboard_enter_text"nmt"
+keyboard_enter_text"nmt"
+keyboard_enter_text"nmt"
+touch("UITextField marked: 'Cal_tfPassWord'")
+keyboard_enter_text"123456"
+touch("UIButton marked:'Cal_btLogin'")
+touch("UITableViewCell index:3")
